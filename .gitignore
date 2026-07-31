@@ -1,0 +1,20 @@
+# Build
+*.o
+*.out
+a.out
+bin/
+build/
+*.exe
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+# CUDA / profiling
+*.nsys-rep
+*.ncu-rep
+profile_*.csv
+# Data
+*.csv
+*.png
+!docs/**
